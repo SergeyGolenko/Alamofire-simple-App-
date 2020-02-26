@@ -15,6 +15,7 @@
 		636ACE032406CCBC000AB7D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636ACE022406CCBC000AB7D3 /* Assets.xcassets */; };
 		636ACE062406CCBC000AB7D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636ACE042406CCBC000AB7D3 /* LaunchScreen.storyboard */; };
 		636ACE0E2406D4BC000AB7D3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636ACE0D2406D4BC000AB7D3 /* Model.swift */; };
+		636ACE102406D9EE000AB7D3 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636ACE0F2406D9EE000AB7D3 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		636ACE052406CCBC000AB7D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636ACE072406CCBC000AB7D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		636ACE0D2406D4BC000AB7D3 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		636ACE0F2406D9EE000AB7D3 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		654ACF1A73E70497BF1B217B /* Pods-Alamofire(simple App).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire(simple App).debug.xcconfig"; path = "Target Support Files/Pods-Alamofire(simple App)/Pods-Alamofire(simple App).debug.xcconfig"; sourceTree = "<group>"; };
 		9E9B53852FD7E0F53CD10023 /* Pods-Alamofire(simple App).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alamofire(simple App).release.xcconfig"; path = "Target Support Files/Pods-Alamofire(simple App)/Pods-Alamofire(simple App).release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +78,7 @@
 				636ACDF92406CCBA000AB7D3 /* AppDelegate.swift */,
 				636ACDFB2406CCBA000AB7D3 /* SceneDelegate.swift */,
 				636ACDFD2406CCBA000AB7D3 /* ViewController.swift */,
+				636ACE0F2406D9EE000AB7D3 /* CustomTableViewCell.swift */,
 				636ACE0D2406D4BC000AB7D3 /* Model.swift */,
 				636ACDFF2406CCBB000AB7D3 /* Main.storyboard */,
 				636ACE022406CCBC000AB7D3 /* Assets.xcassets */,
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				636ACDFE2406CCBA000AB7D3 /* ViewController.swift in Sources */,
+				636ACE102406D9EE000AB7D3 /* CustomTableViewCell.swift in Sources */,
 				636ACDFA2406CCBA000AB7D3 /* AppDelegate.swift in Sources */,
 				636ACDFC2406CCBA000AB7D3 /* SceneDelegate.swift in Sources */,
 				636ACE0E2406D4BC000AB7D3 /* Model.swift in Sources */,
