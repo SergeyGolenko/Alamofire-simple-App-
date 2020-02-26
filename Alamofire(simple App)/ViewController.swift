@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("This is VC")
+        print("Hello")
         // Do any additional setup after loading the view.
     }
 
