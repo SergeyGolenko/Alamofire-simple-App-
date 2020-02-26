@@ -9,7 +9,8 @@
 import Foundation
 
 struct Item:Codable{
-    var albumID:Int
-    var id:Int
-    
+    let albumID:Int
+    let id:Int
+    let title:String
+    let url:String
 }
