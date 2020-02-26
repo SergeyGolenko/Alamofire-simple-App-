@@ -25,6 +25,9 @@
                                 <state key="normal" title="Получить запрос">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendRequest:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HTm-zB-QPl"/>
+                                </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="IDY-hX-70v">
                                 <rect key="frame" x="10" y="176" width="394" height="656"/>
@@ -90,7 +93,10 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="albumIdLabel" destination="5Gy-IJ-ZNf" id="Xz8-3g-IJa"/>
                                             <outlet property="idLabel" destination="9EI-I4-Puk" id="eix-YM-qnS"/>
+                                            <outlet property="titleLabel" destination="viJ-NQ-Lab" id="PWX-qz-0gV"/>
+                                            <outlet property="urlLabel" destination="u1g-a9-LGc" id="CRs-JK-Uzn"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -108,6 +114,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="IDY-hX-70v" id="g8S-JZ-OhA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
