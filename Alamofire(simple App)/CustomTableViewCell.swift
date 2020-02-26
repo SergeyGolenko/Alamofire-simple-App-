@@ -11,7 +11,11 @@ import UIKit
 class CustomTableViewCell: UITableViewCell {
     
     
-
+    @IBOutlet weak var idLabel: UILabel!
+    @IBOutlet weak var urlLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var albumIdLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
